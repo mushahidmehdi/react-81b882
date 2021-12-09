@@ -8,13 +8,5 @@
 		//786px
 		@media only screen and (max-width: 48em) { @content; }
 	}
-	@if ($breakpoint == laptop) {
-		//1440
-		@media only screen and (max-width: 90em) { @content; }
-	}
-	@if ($breakpoint == desktop) {
-		//1440
-		@media only screen and (max-width: 120em) { @content; }
-	}
 
 }

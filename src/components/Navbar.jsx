@@ -5,7 +5,7 @@ import warning from '../assests/warning.png';
 const Navbar = () => {
   return (
     <div className='header'>
-      <div className="header__alert">
+      <div className="header__alert"> 
         <img src={warning} alt='warning'/>
         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
       </div>
